@@ -21,8 +21,8 @@ public class SendEmail{
 	}
 	public void sendEmailToUser(String userEmailAddr, String subject, String text) {
 		String host = "smtp.naver.com";
-		String user = "wonseob7942@naver.com";
-		String password = "kws7942##";
+		String user = "id";
+		String password = "pass";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.host", host);
